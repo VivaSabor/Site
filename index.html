@@ -202,13 +202,13 @@
                 
                 <div class="service-card bg-white p-8 rounded-2xl card-shadow">
                     <div class="text-4xl mb-4">📱</div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Aplicativo Intuitivo</h3>
-                    <p class="text-gray-600 mb-6">Plataforma digital fácil de usar, desenvolvida especialmente para a terceira idade com interface simples e clara.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">NutriBox</h3>
+                    <p class="text-gray-600 mb-6">Uma solução prática e saudável para o seu dia a dia. Receba refeições balanceadas, pensadas por nutricionistas e prontas para facilitar sua rotina.</p>
                     <ul class="text-sm text-gray-600 space-y-2">
-                        <li>✓ Interface amigável para idosos</li>
-                        <li>✓ Vídeo-aulas passo a passo</li>
-                        <li>✓ Planos alimentares semanais</li>
-                        <li>✓ Lembretes e notificações</li>
+                        <li>✓ Ingredientes selecionados e de qualidade</li>
+                        <li>✓ Planos alimentares personalizados</li>
+                        <li>✓ Opções para diferentes restrições e preferências</li>
+                        <li>✓ Praticidade: basta aquecer e aproveitar</li>
                     </ul>
                 </div>
                 
@@ -218,9 +218,9 @@
                     <p class="text-gray-600 mb-6">Acompanhamento profissional com nutricionistas, psicólogos e terapeutas especializados em terceira idade.</p>
                     <ul class="text-sm text-gray-600 space-y-2">
                         <li>✓ Consultas com nutricionistas</li>
-                        <li>✓ Apoio psicológico especializado</li>
-                        <li>✓ Terapias complementares</li>
                         <li>✓ Agendamento flexível</li>
+                        <li></li>
+                        <li></li>
                     </ul>
                 </div>
                 
@@ -277,7 +277,7 @@
                     <div class="text-center mb-8">
                         <h3 class="text-3xl font-bold text-green mb-2">Plano Básico</h3>
                         <p class="text-gray-600 mb-4">Ideal para começar sua jornada saudável</p>
-                        <div class="text-4xl font-bold text-green-600 mb-2">R$ 49<span class="text-lg text-gray-500">/mês</span></div>
+                        <div class="text-4xl font-bold text-green-600 mb-2">R$ 89,90<span class="text-lg text-gray-500">/mês</span></div>
                     </div>
                     
                     <ul class="space-y-4 mb-8">
@@ -313,7 +313,7 @@
                         </li>
                     </ul>
                     
-                    <button onclick="selectPlan('basico')" class="w-full bg-green text-white py-3 rounded-lg hover:opacity-90 transition font-semibold">Escolher Plano Básico</button>
+                    <button onclick="document.getElementById('app').scrollIntoView({behavior: 'smooth'});" class="w-full bg-green text-white py-3 rounded-lg hover:opacity-90 transition font-semibold">Escolher Plano Básico</button>
                 </div>
                 
                 <!-- Premium Plan -->
@@ -323,7 +323,7 @@
                     <div class="text-center mb-8">
                         <h3 class="text-3xl font-bold text-gold mb-2">Plano Premium</h3>
                         <p class="text-gray-600 mb-4">Acompanhamento completo com especialistas</p>
-                        <div class="text-4xl font-bold text-gold2 mb-2">R$ 149<span class="text-lg text-gold">/mês</span></div>
+                        <div class="text-4xl font-bold text-gold2 mb-2">R$ 224,90<span class="text-lg text-gold">/mês</span></div>
                     </div>
                     
                     <ul class="space-y-4 mb-8">
@@ -365,7 +365,7 @@
                         </li>
                     </ul>
                     
-                    <button onclick="selectPlan('premium')" class="w-full bg-gold text-white py-3 rounded-lg hover:bg-cream transition font-semibold">Escolher Plano Premium</button>
+                    <button onclick="document.getElementById('app').scrollIntoView({behavior: 'smooth'});" class="w-full bg-gold text-white py-3 rounded-lg hover:bg-cream transition font-semibold">Escolher Plano Premium</button>
                 </div>
             </div>
             
@@ -910,7 +910,7 @@
             const plans = {
                 basico: {
                     name: 'Plano Básico',
-                    price: 49,
+                    price: 89.90,
                     features: [
                         'Receitas personalizadas ilimitadas',
                         'Planos alimentares semanais',
@@ -921,7 +921,7 @@
                 },
                 premium: {
                     name: 'Plano Premium',
-                    price: 149,
+                    price: 224.90,
                     features: [
                         'Tudo do Plano Básico',
                         'Consultas online com nutricionistas',
@@ -1086,6 +1086,7 @@
         function openApp() {
             // In a real scenario, this would redirect to the app
             alert('Redirecionando para o aplicativo Viva Sabor...');
+            <a href= "https://vivasabor.github.io/App2/"></a>
         }
 
         // Add scroll effect to navbar
@@ -1118,4 +1119,4 @@
         });
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96d12e138549f1fe',t:'MTc1NDg0NjU5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
+    </html>
