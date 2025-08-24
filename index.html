@@ -2521,7 +2521,7 @@
 
             if (currentUser && currentUser.plan === 'Premium') {
                 
-                document.getElementById('shipping-cost').textContent = `R$ ${shippingCost.toFixed(2)}`;
+                document.getElementById('shipping-cost').textContent = `R$ ${shippingCost.toFixed(2)}` / 2;
             } else {
                 document.getElementById('shipping-cost').textContent = `R$ ${shippingCost.toFixed(2)}`;
             }
